@@ -1,6 +1,6 @@
 
+conda create --name django-work
 source activate django-work
-
 pip install django
 
 django-admin startproject mysite
