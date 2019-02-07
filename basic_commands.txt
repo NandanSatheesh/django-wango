@@ -1,0 +1,16 @@
+
+conda create --name django-work
+source activate django-work
+pip install django
+
+django-admin startproject mysite
+
+conda install -c anaconda git 
+
+python manage.py runserver
+
+activate django-work
+deactivate 
+
+activate django-work
+deactivate 
